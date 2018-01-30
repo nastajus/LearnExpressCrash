@@ -46,7 +46,12 @@ app.get('/', function(req, res){
 
 app.post('/users/add', function(req,res){
     //how to access the actual value submitted by the form
-    console.log(req.body.first_name);
+    var newUser = {
+        first_name: req.body.first_name,
+        last_name: req.body.last_name,
+        email: req.body.email
+    }
+    console.log(newUser);
 });
 
 app.listen(3000, function(){
