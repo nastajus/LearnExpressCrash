@@ -38,11 +38,14 @@ var users = [
 
 app.get('/', function(req, res){
     //res.send('hello');
-    var title = 'Customers';
     res.render('index', {
-        title: title,
+        title: 'Customers',
         users: users
     });
+});
+
+app.post('/users/add', function(req,res){
+    console.log('FORM SUBMITTED');
 });
 
 app.listen(3000, function(){
