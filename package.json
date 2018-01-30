@@ -1,0 +1,16 @@
+{
+  "name": "companychooser-react-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "ejs": "*",
+    "express": "*"
+  },
+  "author": "Ian Nastajus <ian.nastajus@gmail.com> (www.nastasjus.com)",
+  "license": "ISC"
+}
