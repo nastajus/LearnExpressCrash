@@ -45,7 +45,8 @@ app.get('/', function(req, res){
 });
 
 app.post('/users/add', function(req,res){
-    console.log('FORM SUBMITTED');
+    //how to access the actual value submitted by the form
+    console.log(req.body.first_name);
 });
 
 app.listen(3000, function(){
