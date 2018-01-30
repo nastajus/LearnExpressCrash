@@ -9,7 +9,8 @@
   "dependencies": {
     "body-parser": "*",
     "ejs": "*",
-    "express": "*"
+    "express": "*",
+    "express-validator": "*"
   },
   "author": "Ian Nastajus <ian.nastajus@gmail.com> (www.nastasjus.com)",
   "license": "ISC"
