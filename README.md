@@ -16,7 +16,7 @@ I decided some workflows early on. For personal projects like this, I try to min
 
 ### how and why I excluded other's libraries
 
-So as JavaScript libraries are proliferant and are necessary dependencies, I came up with the following solution to keep my github statistics purely my own typed code.
+So as JavaScript libraries are proliferant and are necessary dependencies, I came up the below solution to keep my github statistics purely my own typed code. I must clarify, I strictly did this exclusively because it was solely a tiny practice project. If this project were even a little more complicated, or more unique, or more collaborative, I would be **eagerly conforming to normal conventions of including dependencies instead** as a teamplayer. Treat this as an outlier that was never intended to follow industry norms for dependency management. 
 
 \<nerdy-stuff\>
 
